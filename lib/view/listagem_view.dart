@@ -6,10 +6,10 @@ class ListagemView extends StatefulWidget {
   const ListagemView({super.key, this.novoContato});
 
   @override
-  State<ListagemView> createState() => _ListagemViewState();
+  State<ListagemView> createState() => ListagemViewState();
 }
 
-class _ListagemViewState extends State<ListagemView> {
+class ListagemViewState extends State<ListagemView> {
   // Lista inicial de contatos, com 5 contatos de exemplo
   List<Map<String, String>> contatos = [
     {'nome': 'Maria', 'telefone': '1234-5678'},
